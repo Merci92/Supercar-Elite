@@ -1,0 +1,347 @@
+/* Style global de la page */
+body {
+    margin: 0; /* Supprime la marge par défaut autour du body */
+    font-family: "Oswald", serif; /* Définit la police Oswald pour tout le texte */
+    font-weight: 400; /* Définit le poids de la police */
+}
+
+/* Police spécifique pour les titres h1, h2, h3, h4 */
+h1, h2, h3, h4 {
+    font-family: "DM Serif Text", serif; /* Police DM Serif Text pour les titres */
+}
+
+/* Flexbox pour les divs dans les sections */
+section div {
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne */
+    gap: 20px; /* Espace de 20px entre les éléments */
+}
+
+/* Conteneur centré avec largeur maximale */
+.container {
+    max-width: 1140px; /* Largeur maximale de 1140px */
+    height: 100%; /* Hauteur complète */
+    margin: 0 auto; /* Centre horizontalement */
+}
+
+/* Mise en page flex */
+.dflex {
+    display: flex; /* Affiche les éléments en flexbox */
+}
+
+/* Espace égal entre les éléments */
+.space-between {
+    justify-content: space-between; /* Espace entre les éléments */
+}
+
+/* Centrage horizontal */
+.content-center {
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.content-right {
+    justify-content: right; /* Aligne à droite */
+}
+
+.content-left {
+    justify-content: left; /* Aligne à gauche */
+}
+
+/* Centrage vertical */
+.align-center {
+    align-items: center; /* Centre verticalement */
+}
+
+/* En-tête : style de la barre de navigation */
+header {
+    background-color: #1f1f1f; /* Fond noir */
+    height: 110px; /* Hauteur de l'en-tête */
+    padding: 0 20px; /* Padding horizontal */
+}
+
+header img {
+    max-width: 110px; /* Largeur maximale de l'image */
+    height: 110px; /* Hauteur de l'image */
+}
+
+/* Liste de navigation dans l'en-tête et le pied de page */
+header ul, footer ul {
+    list-style: none; /* Supprime les puces */
+    flex-wrap: wrap; /* Permet à la liste de se dérouler */
+    justify-content: center; /* Centre les éléments */
+    padding-left: 0; /* Supprime le padding gauche */
+}
+
+a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+}
+
+header li {
+    margin-left: 30px; /* Espace entre les éléments de la liste */
+}
+
+header a {
+    color: #ffffff; /* Couleur des liens en blanc */
+    font-size: 1.2em; /* Taille du texte */
+}
+
+/* Section "Bienvenue" : style de l'arrière-plan et du texte */
+.bienvenue {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/Section\ SUPERCAR\ ELITE.jpg); /* Image de fond avec dégradé */
+    padding: 130px 20px; /* Espacement intérieur */
+    text-align: center; /* Centre le texte */
+    background-size: cover; /* Remplit l'arrière-plan */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    background-attachment: fixed; /* Fixe l'image */
+    background-position: center center; /* Centre l'image */
+}
+
+.bienvenue h1 {
+    color: #ffffff; /* Titre en blanc */
+    font-weight: 400; /* Poids normal */
+    font-size: 2.5em; /* Taille du texte */
+}
+
+.slogan {
+    color: #ffffff; /* Slogan en blanc */
+    font-size: 4em; /* Taille de la police */
+    font-weight: 400; /* Poids normal */
+}
+
+.intro {
+    max-width: 900px; /* Largeur maximale */
+    color: #ffffff; /* Couleur du texte */
+    font-size: 1.8em; /* Taille de la police */
+    margin: 20px auto; /* Marge et centrage horizontal */
+    text-align: center; /* Centre le texte */
+}
+
+/* Boutons dans la section Bienvenue */
+.btn {
+    background-color: #1f1f1f; /* Fond noir */
+    padding: 10px 30px; /* Espacement intérieur */
+    font-size: 1.3em; /* Taille de la police */
+    color: #ffffff; /* Texte en blanc */
+    display: inline-block; /* Affichage en ligne */
+    border-radius: 10px; /* Coins arrondis */
+}
+
+/* Section "Articles" */
+.articles {
+    background-color: #1f1f1f; /* Fond noir */
+    text-align: center; /* Centre le texte */
+    padding: 80px 20px 100px 20px; /* Espacement intérieur */
+    color: #ffffff; /* Texte en blanc */
+    font-size: 1.2em; /* Taille de la police */
+}
+
+h2 {
+    font-size: 2.5em; /* Taille du titre */
+    margin-top: 0; /* Supprime la marge supérieure */
+}
+
+/* Style des articles */
+.articles article {
+    width: 360px; /* Largeur des articles */
+    margin-bottom: 40px; /* Espace sous chaque article */
+}
+
+.photo-speciale:hover {
+    transform: scale(1.1); /* Agrandissement au survol */
+}
+
+.photo-speciale {
+    transition: transform 0.2s ease; /* Animation douce */
+}
+
+article img {
+    width: 100%; /* Largeur maximale */
+}
+
+.articles img {
+    border-radius: 15px; /* Coins arrondis */
+}
+
+article p {
+    text-align: center; /* Centre le texte */
+    margin-bottom: 30px;
+}
+
+/* Boutons dans la section Articles */
+.btn-small1 {
+    background-color: #4f6faa; /* Fond bleu */
+    color: #000000; /* Texte en noir */
+    padding: 4px 30px; /* Espacement */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+.btn-small1:hover {
+    background-color: #0008ff00; /* Fond transparent au survol */
+    color: #ffffff; /* Texte en blanc */
+}
+
+.btn-small2 {
+    background-color: #f9f1de; /* Fond clair */
+    color: #000000; /* Texte en noir */
+    padding: 4px 30px;
+    border-radius: 5px;
+}
+
+.btn-small2:hover {
+    background-color: #0c0c0c00; /* Fond transparent au survol */
+    color: #ffffff;
+}
+
+.btn-small3 {
+    background-color: #af3d52; /* Fond rouge */
+    color: #000000;
+    padding: 4px 30px;
+    border-radius: 5px;
+}
+
+.btn-small3:hover {
+    background-color: #ff002f00; /* Fond transparent au survol */
+    color: #ffffff;
+}
+
+/* Section Agence */
+.agence {
+    padding: 100px 20px; /* Espacement */
+}
+
+.agence h2 {
+    text-align: center; /* Centre le titre */
+}
+
+.agence p {
+    text-align: left; /* Texte aligné à gauche */
+}
+
+.agence img {
+    width: 100%; /* Largeur maximale */
+    box-shadow: -30px -30px 0px #1f1f1f; /* Ombre */
+}
+
+.agence .agence-col {
+    width: 540px; /* Largeur */
+    margin-bottom: 40px; /* Espace sous chaque colonne */
+}
+
+.agence .agence-col h2 {
+    font-size: 1.8em; /* Taille de la police */
+    color: #1f1f1f; /* Couleur du texte */
+}
+
+.agence .agence-col p {
+    font-size: 1em; /* Taille du texte */
+    color: #1f1f1f; /* Couleur du texte */
+}
+
+/* Section Contact */
+.contact {
+    background-image: url(Images/Koenigsegg\ Agera\ R\ Koenigsegg\ One.jpg); /* Image de fond pour la section */
+    color: #1f1f1f; /* Couleur de texte par défaut */
+    padding: 150px 20px; /* Espacement intérieur en haut/bas de 150px, à gauche/droite de 20px */
+    background-size: cover; /* Image couvre tout le conteneur */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-attachment: fixed; /* Image de fond fixe au défilement */
+}
+
+div .contact-col {
+    width: 540px; /* Largeur fixe de chaque colonne de contact */
+}
+
+/* Style du formulaire de contact */
+form {
+    display: flex; /* Active le modèle Flexbox */
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
+    justify-content: space-between; /* Espace égal entre les éléments */
+    padding: 10px 30px; /* Espacement intérieur en haut/bas de 10px, à gauche/droite de 30px */
+}
+
+input {
+    width: 45%; /* Largeur de chaque champ d'entrée en pourcentage */
+    height: 30px; /* Hauteur de 30px pour les champs */
+    border: 1px solid #1f1f1f; /* Bordure fine en noir */
+    margin-bottom: 20px; /* Marge inférieure entre les champs */
+    border-radius: 5px; /* Coins arrondis de 5px */
+    padding-left: 10px; /* Espacement intérieur à gauche pour le texte */
+}
+
+textarea {
+    width: 100%; /* Champ de texte prend toute la largeur */
+    border: 1px solid #1f1f1f; /* Bordure fine en noir */
+    border-radius: 5px; /* Coins arrondis de 5px */
+    padding-left: 10px; /* Espacement intérieur à gauche pour le texte */
+}
+
+/* Centrage du texte et largeur des éléments de formulaire */
+form p {
+    text-align: center; /* Centre le texte */
+    width: 100%; /* Largeur complète du conteneur */
+    margin-top: 30px; /* Marge supérieure de 30px */
+}
+
+button {
+    cursor: pointer; /* Change le curseur en pointeur */
+    border: none; /* Supprime les bordures par défaut */
+}
+
+textarea {
+    resize: none; /* Désactive la possibilité de redimensionner */
+}
+
+input[placeholder], textarea[placeholder] {
+    font-family: "Oswald", serif; /* Police spécifique pour le texte des placeholders */
+    font-size: 1.1em; /* Taille de police pour les placeholders */
+}
+
+.contact h2 {
+    text-align: center; /* Centre le titre */
+    text-shadow: 0px 0px 5px rgb(255, 255, 255); /* Ombre blanche subtile */
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f; /* Couleur de fond sombre pour le pied de page */
+}
+
+footer img {
+    max-width: 145px; /* Largeur maximale de 145px pour les images */
+    height: auto; /* Hauteur automatique pour respecter les proportions */
+}
+
+/* Colonnes du pied de page */
+.footer-col {
+    width: 30%; /* Largeur de chaque colonne du footer */
+    text-align: center; /* Centre le texte dans chaque colonne */
+}
+
+a {
+    color: #ffffff; /* Texte des liens en blanc */
+    text-decoration: none; /* Supprime le soulignement des liens */
+}
+
+h3 {
+    color: #ffffff; /* Titres du footer en blanc */
+}
+
+/* Alignement et espacement des icônes sociales */
+.social {
+    justify-content: space-evenly; /* Espace égal entre chaque icône */
+}
+
+i {
+    font-size: 2em; /* Taille des icônes sociales */
+}
+
+/* Barre des droits d'auteur */
+.copyright {
+    color: #ffffff; /* Couleur du texte */
+    text-align: center; /* Centre le texte */
+    border-top: 1px solid #ffffff; /* Bordure supérieure fine en noir */
+    padding: 10px; /* Espacement intérieur de 10px */
+}
+
+footer p {
+    margin: 0; /* Supprime la marge inférieure */
+}
