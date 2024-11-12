@@ -86,7 +86,7 @@ header a {
 
 /* Section "Bienvenue" : style de l'arrière-plan et du texte */
 .bienvenue {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/Section\ SUPERCAR\ ELITE.jpg); /* Image de fond avec dégradé */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/hypercars_bienvenue_background.jpg); /* Image de fond avec dégradé */
     padding: 130px 20px; /* Espacement intérieur */
     text-align: center; /* Centre le texte */
     background-size: cover; /* Remplit l'arrière-plan */
@@ -238,7 +238,7 @@ article p {
 
 /* Section Contact */
 .contact {
-    background-image: url(Images/Koenigsegg\ Agera\ R\ Koenigsegg\ One.jpg); /* Image de fond pour la section */
+    background-image: url(Images/koenigsegg_agera_r_one.jpg); /* Image de fond pour la section */
     color: #1f1f1f; /* Couleur de texte par défaut */
     padding: 150px 20px; /* Espacement intérieur en haut/bas de 150px, à gauche/droite de 20px */
     background-size: cover; /* Image couvre tout le conteneur */
